@@ -1,4 +1,66 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/verification",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/verification.html",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/escrow",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/escrow.html",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/trust-score",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/trust-score.html",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/tenants",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/tenants.html",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/agents",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/agents.html",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/landlords",
+      "destination": "/how-it-works",
+      "permanent": false
+    },
+    {
+      "source": "/landlords.html",
+      "destination": "/how-it-works",
+      "permanent": false
+    }
+  ]
 }
