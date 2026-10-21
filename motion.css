@@ -45,7 +45,7 @@ html.intro-lock,html.intro-lock body{overflow:hidden}
 .intro-markw:after,.mark-wrap:after{content:"";position:absolute;inset:0;pointer-events:none;
   background:linear-gradient(105deg,transparent 38%,rgba(255,238,200,.95) 50%,transparent 62%);background-size:260% 100%;background-position:150% 0;background-repeat:no-repeat;mix-blend-mode:soft-light;
   -webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
-.intro-markw:after{-webkit-mask-image:url(/assets/logo-mark.png);mask-image:url(/assets/logo-mark.png);animation:sweep 1.1s ease-in-out .85s both}
+.intro-markw:after{-webkit-mask-image:url(/logo-mark.png);mask-image:url(/logo-mark.png);animation:sweep 1.1s ease-in-out .85s both}
 @keyframes sweep{from{background-position:150% 0}to{background-position:-50% 0}}
 
 .intro-word{margin-top:30px;padding-left:.3em;font-weight:800;font-size:30px;line-height:1;letter-spacing:.78em;opacity:0;animation:wordIn 1.15s var(--ease) .7s forwards}
@@ -108,7 +108,7 @@ h1.sw em .w>span{background:linear-gradient(100deg,var(--gold) 0%,var(--gold2) 3
 .mark-wrap{position:relative;display:inline-block;line-height:0;animation:float 8s ease-in-out infinite}
 @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
 .hero .mark-wrap .mark{width:min(430px,76vw)}
-.mark-wrap:after{-webkit-mask-image:url(/assets/logo-full.png);mask-image:url(/assets/logo-full.png);animation:sweepLoop 7.5s ease-in-out calc(var(--hd) + 1.8s) infinite}
+.mark-wrap:after{-webkit-mask-image:url(/logo-full.png);mask-image:url(/logo-full.png);animation:sweepLoop 7.5s ease-in-out calc(var(--hd) + 1.8s) infinite}
 @keyframes sweepLoop{0%,62%{background-position:150% 0}100%{background-position:-50% 0}}
 
 /* floating proof chips around the logo */
