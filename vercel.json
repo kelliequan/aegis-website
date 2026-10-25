@@ -64,3 +64,7 @@
     }
   ]
 }
+"rewrites": [
+    { "source": "/p/:code", "destination": "/api/share?t=p&c=:code" },
+    { "source": "/u/:username", "destination": "/api/share?t=u&c=:username" }
+  ],
