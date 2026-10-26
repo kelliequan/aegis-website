@@ -88,8 +88,8 @@ ${p.owner_name ? `<div class="muted" style="margin-top:12px">Listed by ${esc(p.o
     title: (p.title || 'Property') + ' | AEGIS',
     desc,
     image: p.image,
-    canonical: SITE + '/p/' + code,
-    appLink: 'aegisnative://p/' + code,
+    canonical: p.owner_username ? SITE + '/' + p.owner_username + '/property/' + code : SITE + '/p/' + code,
+    appLink: p.owner_username ? 'aegisnative://' + p.owner_username + '/property/' + code : 'aegisnative://p/' + code,
     body,
   });
 }
@@ -109,8 +109,8 @@ ${p.listings ? `<div class="muted" style="margin-top:12px">${esc(p.listings)} ve
     title: name + ' (@' + p.username + ') | AEGIS',
     desc,
     image: p.avatar_url,
-    canonical: SITE + '/u/' + p.username,
-    appLink: 'aegisnative://u/' + p.username,
+    canonical: SITE + '/' + p.username,
+    appLink: 'aegisnative://' + p.username,
     body,
   });
 }
