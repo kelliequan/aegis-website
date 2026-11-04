@@ -1,0 +1,4 @@
+/* AEGIS-LOGOFULL: real logo at the top left */
+.hdr .brandfull{display:flex;align-items:center}
+.hdr .brandfull img{height:46px;width:auto;display:block}
+@media(max-width:480px){.hdr .brandfull img{height:42px}}
