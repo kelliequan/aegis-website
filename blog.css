@@ -1,0 +1,28 @@
+/* AEGIS blog styles. Prefixed bl- so they cannot clash with the rest of the site. */
+.bl{--bl-gold:var(--gold,#D4A937);--bl-line:rgba(255,255,255,.14);--bl-mut:rgba(255,255,255,.72);padding:116px 16px 72px}
+.bl-art,.bl-wrap{max-width:760px;margin:0 auto}
+.bl h1{font-size:clamp(28px,5.2vw,42px);line-height:1.15;margin:10px 0 18px;letter-spacing:-.5px}
+.bl h2{font-size:clamp(21px,3.6vw,26px);line-height:1.25;margin:40px 0 12px}
+.bl p,.bl li{font-size:17px;line-height:1.7;color:var(--bl-mut)}
+.bl p{margin:0 0 16px}
+.bl ul,.bl ol{margin:0 0 18px;padding-left:22px}
+.bl li{margin:0 0 9px}
+.bl li strong,.bl p strong{color:#fff}
+.bl a{color:var(--bl-gold)}
+.bl-lead{font-size:19px!important;color:#fff!important}
+.bl-meta{font-size:13.5px;color:var(--bl-mut);margin-top:6px}
+.bl-back{display:inline-block;font-size:14px;text-decoration:none;margin-bottom:10px}
+.bl-toc,.bl-box{border:1px solid var(--bl-line);background:rgba(255,255,255,.04);border-radius:14px;padding:16px 18px;margin:22px 0}
+.bl-toc ol{margin:8px 0 0}
+.bl-toc li,.bl-box li{font-size:15.5px;margin-bottom:6px}
+.bl-box{border-color:rgba(212,169,55,.45)}
+.bl-note{font-size:14px!important;opacity:.85}
+.bl-cta{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;border:1px solid var(--bl-line);border-radius:16px;padding:18px 20px;margin-top:34px;background:rgba(255,255,255,.04)}
+.bl-cta div{display:flex;flex-direction:column;gap:3px;color:var(--bl-mut)}
+.bl-cta strong{color:#fff;font-size:17px}
+.bl-card{display:block;text-decoration:none!important;border:1px solid var(--bl-line);border-radius:16px;padding:20px;margin-top:26px;background:rgba(255,255,255,.04)}
+.bl-card h2{margin:6px 0 8px;color:#fff}
+.bl-card p{margin:0 0 10px}
+.bl-tag{font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--bl-gold)}
+.bl-more{font-weight:700;color:var(--bl-gold)}
+@media (max-width:600px){.bl{padding-top:96px}.bl p,.bl li{font-size:16.5px}}
